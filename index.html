@@ -7,7 +7,7 @@
             <meta name="description" content="Descrição do meu site">
             <meta name="keywords" content="palavras_chaves,separadas,por,virgula">
             <meta name="author" content="Shodi">
-            <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
             
             <link rel="preconnect" href="https://fonts.googleapis.com"> 
             <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -37,7 +37,8 @@
                                 </nav>
                                 
                                     <div class="boas_vindas">
-                                        <p>Olá, me chamo Eduardo. E venho por esse Portifolio lhe apresentar minhas habilidades e estudos.</p>
+                                        <p id="text"></p>
+                                        <span class="bar"></span>
                                     </div><!--boas_vindas-->
 
                                 </div><!--nome-->
@@ -51,7 +52,7 @@
                         <div class="icones-sociais">
                             <div class="contain centro">
                                 <div class="icon centro">
-                                    <a href="https://github.com/Eduardo638/Projetos/projects"><i class="fab fa-github fa-2x"></i></a>
+                                    <a href="https://github.com/Eduardo638"><i class="fab fa-github fa-2x"></i></a>
                                 </div><!--icon centro-->
 
                                 <div class="icon centro">
@@ -67,15 +68,68 @@
                                 </div><!--icon centro-->
 
                             </div><!--contain centro-->
+                            <div class="clear"></div>
                         </div><!--icones-sociais-->
                         <div class="clear"></div>
                     </div><!--container-->
                 </header>
 
-                <main>
+                <section>
+                    <div class="container">
+                            <div class="tecnologias">
+                                <h1> Tecnologias de dominio </h1>
+                            </div><!--tecnologias-->
 
-                </main>
+                            <div class="quadrado">
+                                <div class="html">
+                                    <div class="quadrado_opacidade"></div>
+                                        <p class="principal"> HTML </p>
+                                        <p class="referencia"> projetos reais</p>
+                                        <div class="saibamais-html"><a href="#"> clique aqui!</a></div>
 
+                                </div><!--html-->
+                                <div class="clear"></div>
+                            </div><!--quadrado-->
+                            
+                            <div class="quadrado">
+                                <div class="css">
+                                    <div class="quadrado_opacidade"></div>
+                                    <div class="quadrado_css3"></div>
+                                    <p class="principal"> CSS </p>
+                                    <p class="referencia"> <br>projetos reais</p>
+                                </div><!--css-->
+                                <div class="clear"></div>
+                            </div><!--quadrado-->
 
+                            <div class="quadrado">
+                                <div class="js">
+                                    <div class="quadrado_opacidade"></div>
+                                    <div class="quadrado_JS"></div>
+                                    <p class="principal"> JS </p>
+                                    <p class="referencia"> <br>projetos reais</p>
+                                </div><!--js-->
+                                <div class="clear"></div>
+                            </div><!--quadrado-->
+                        <div class="clear"></div>
+                    </div><!--container-->
+                </section>
+
+                <section class="contato">
+                    
+                    <h2>
+                        <div class="borada-efeito"></div>
+                        Entre em contato!
+                    </h2>
+                    <form>
+                        <input type="text" placeholder="Digite seu Nome...">
+                        <input type="email" placeholder="Digite seu E-mail...">
+                        <input type="tel" placeholder="Digite seu número...">
+                        <textarea placeholder="Digite a sua mensagem..."></textarea><br>
+                        <input type="submit" value="Enviar!">
+                    </form>
+                </section>
+
+                <footer>todos os direitos reservados</footer>
+                <script src="assets/js/style.js"></script>
     </body>
 </html>
